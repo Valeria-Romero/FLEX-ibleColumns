@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.row{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.col{
+    flex: 1;
+    background-color: darkcyan;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.col-2{
+    flex: 2;
+    background-color: darkcyan;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.col-3{
+    flex: 3;
+    background-color: darkcyan;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-right: 0;
+}
